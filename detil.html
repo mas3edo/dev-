@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Domine:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Details</title>
+    <link rel="stylesheet" href="css2/index.css" />
+    <link rel="stylesheet" href="css2/idex2.css" />
+    <link rel="stylesheet" href="css2/bootstrap.min.css" />
+    <link rel="stylesheet" href="css2/all.min.css" />
+  </head>
+  <body class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container mt-2 d-flex align-items-center">
+        <a class="navbar-brand" href="#">DevFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars fx-5"></i
+          ></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#HOME" :active
+              >HOME</a
+            >
+            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link" href="#services">SERVICES</a>
+            <a class="nav-link" href="#portfolio">WORK</a>
+            <a class="nav-link" href="#">BLOG</a>
+            <div class="list">
+              <a class="nav-link" id="list" href="#">DROB DOWN</a>
+              <ul class="drob">
+                <li><a href="">Drob Down</a></li>
+                <li>
+                  <div class="list2">
+                    <a class="" href="">Deeb Drob Down </a>
+                    <ul class="drobdown">
+                      <li><a href="">Deeb Drob Down1</a></li>
+                      <li><a href="">Deeb Drob Down2</a></li>
+                      <li><a href="">Deeb Drob Down3</a></li>
+                      <li><a href="">Deeb Drob Down4</a></li>
+                      <li><a href="">Deeb Drob Down5</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="">Drob Down2</a></li>
+                <li><a href="">Drob Down3</a></li>
+                <li><a href="">Drob Down4</a></li>
+              </ul>
+            </div>
+
+            <a class="nav-link" href="#">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <a href="#details" class="up" id="up"
+      ><i class="fa-solid fa-up-long"></i
+    ></a>
+    <div
+      class="details"
+      style="background-image: url(imgs/overlay-bg.jpg)"
+      id="details"
+    >
+      <div class="container">
+        <div class="text">
+          <h1 class="text-white text-uppercase">portfolio details</h1>
+          <p>
+            <span class="text-white text-align-center">Home</span>/Portfolio
+            Details
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-ms-12 col-md-12">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="imgs/portfolio-details-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="imgs/portfolio-details-2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="imgs/portfolio-details-3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <a href="imgs/portfolio-details-3.jpg"></a>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-ms-12">
+          <div class="card text-bg-light mb-3 bg-white">
+            <h3 class="card-header">Project information</h3>
+            <div class="card-body">
+              <span class="d-block"
+                ><h6 class="d-inline-block">Category</h6>
+                : Web design</span
+              >
+              <span class="d-block"
+                ><h6 class="d-inline-block">Client</h6>
+                : ASU Company</span
+              >
+              <span class="d-block"
+                ><h6 class="d-inline-block">Project date:</h6>
+                : 01 March, 2020</span
+              >
+              <span class="d-block text-dark"
+                ><h6 style="color: #4e4e44" class="d-inline-block">Category</h6>
+                :www.example.com</span
+              >
+            </div>
+          </div>
+          <div class="ex">
+            <h2>This is an example of portfolio detail</h2>
+            <p class="text-dark">
+              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque
+              inventore commodi labore quia quia. Exercitationem repudiandae
+              officiis neque suscipit non officia eaque itaque enim. Voluptatem
+              officia accusantium nesciunt est omnis tempora consectetur
+              dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span class="text-white"
+        >© Copyright
+        <h6 class="d-inline-block">DevFolio</h6>
+        . All Rights Reserved
+        <p class="text-white">Designed by BootstrapMade</p></span
+      >
+    </footer>
+    <script src="js2/index2.js"></script>
+    <script src="js2/all.min.js"></script>
+    <script src="js2/bootstrap.bundle.js.map"></script>
+    <script src="js2/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
