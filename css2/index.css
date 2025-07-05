@@ -706,7 +706,7 @@ textarea {
 .replay .d-flex path {
   color: #0078ff;
 }
-.last .row {
+.last .back .container .row {
   margin-right: 0;
   margin-left: 0;
 }
