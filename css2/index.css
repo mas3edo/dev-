@@ -293,6 +293,9 @@ h5 {
   height: 31px;
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
+  .services .col-lg-4 {
+    justify-items: normal;
+  }
   .services .col-md-6 {
     width: 349px;
   }
@@ -327,11 +330,10 @@ h5 {
 }
 .sec .container {
   max-width: 100%;
-  opacity: 0.5;
   margin: 0;
   padding-top: 120px;
   padding-bottom: 140px;
-  background-color: #0078ff;
+  background-color: rgba(0, 120, 225, 0.7);
 }
 
 .col1 {
@@ -347,7 +349,7 @@ h5 {
   border: 8px solid #fff;
   width: 80px;
   height: 80px;
-  background-color: #0078ff;
+  background-color: rgba(0, 120, 225, 0.2);
 }
 .sec .circle svg {
   height: 20px;
@@ -357,9 +359,6 @@ h5 {
   text-align: center;
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .sec .circle {
-    transform: translateX(70%);
-  }
 }
 /* end sec */
 /* start portfolio */
@@ -466,8 +465,7 @@ h5 {
   max-width: 100%;
   height: 100%;
   margin: 0;
-  background-color: #0078ff;
-  opacity: 0.7;
+  background-color: rgba(0, 120, 225, 0.7);
 }
 .details .carousel-indicators [data-bs-target] {
   width: 15px;
@@ -706,7 +704,7 @@ textarea {
 .replay .d-flex path {
   color: #0078ff;
 }
-.last .back .container .row {
+.last .row {
   margin-right: 0;
   margin-left: 0;
 }
